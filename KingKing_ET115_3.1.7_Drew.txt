@@ -1,11 +1,10 @@
-dump
 # Betaflight / OMNIBUS 3.1.7 Apr  3 2017 / 22:14:20 (e1c4b5c)
-name -
+name KingKongET115
 resource BEEPER 1 C15
-resource MOTOR 1 B08
-resource MOTOR 2 B09
-resource MOTOR 3 A03
-resource MOTOR 4 A02
+resource MOTOR 1 A02
+resource MOTOR 2 A03
+resource MOTOR 3 B09
+resource MOTOR 4 B08
 resource MOTOR 5 B07
 resource MOTOR 6 B06
 resource MOTOR 7 NONE
@@ -352,7 +351,7 @@ set align_acc = DEFAULT
 set align_mag = DEFAULT
 set align_board_roll = 0
 set align_board_pitch = 0
-set align_board_yaw = 0
+set align_board_yaw = 180
 set gyro_lpf = OFF
 set gyro_sync_denom = 1
 set gyro_isr_update = OFF
