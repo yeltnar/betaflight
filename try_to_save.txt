@@ -1,0 +1,1704 @@
+# Betaflight / OMNIBUS 3.1.7 Apr  3 2017 / 22:14:20 (e1c4b5c)
+
+# name -
+name -
+
+# resource BEEPER 1 C15
+ C15 set
+
+# resource MOTOR 1 B08
+
+NOTE: B08 already assigned to MOTOR 4. MOTOR 4 disabled.
+ B08 set
+
+# resource MOTOR 2 B09
+
+NOTE: B09 already assigned to MOTOR 3. MOTOR 3 disabled.
+ B09 set
+
+# resource MOTOR 3 A03
+ A03 set
+
+# resource MOTOR 4 A02
+ A02 set
+
+# resource MOTOR 5 B07
+ B07 set
+
+# resource MOTOR 6 B06
+ B06 set
+
+# resource MOTOR 7 NONE
+Freed
+
+# resource MOTOR 8 NONE
+Freed
+
+# resource MOTOR 9 NONE
+###ERROR### index not between 1 and 8
+
+# resource MOTOR 10 NONE
+###ERROR### index not between 1 and 8
+
+# resource MOTOR 11 NONE
+###ERROR### index not between 1 and 8
+
+# resource MOTOR 12 NONE
+###ERROR### index not between 1 and 8
+
+# resource SERVO 1 NONE
+Freed
+
+# resource SERVO 2 NONE
+Freed
+
+# resource SERVO 3 NONE
+Freed
+
+# resource SERVO 4 NONE
+Freed
+
+# resource SERVO 5 NONE
+Freed
+
+# resource SERVO 6 NONE
+Freed
+
+# resource SERVO 7 NONE
+Freed
+
+# resource SERVO 8 NONE
+Freed
+
+# resource PPM 1 B04
+
+NOTE: B04 already assigned to ESCSERIAL.
+ B04 set
+
+# resource PWM 1 NONE
+###ERROR### Invalid
+
+# resource PWM 2 NONE
+###ERROR### Invalid
+
+# resource PWM 3 NONE
+###ERROR### Invalid
+
+# resource PWM 4 NONE
+###ERROR### Invalid
+
+# resource PWM 5 NONE
+###ERROR### Invalid
+
+# resource PWM 6 NONE
+###ERROR### Invalid
+
+# resource PWM 7 NONE
+###ERROR### Invalid
+
+# resource PWM 8 NONE
+###ERROR### Invalid
+
+# resource LED_STRIP 1 A08
+###ERROR### Invalid
+
+# resource SERIAL_TX 1 A09
+ A09 set
+
+# resource SERIAL_TX 2 A14
+ A14 set
+
+# resource SERIAL_TX 3 B10
+ B10 set
+
+# resource SERIAL_TX 4 NONE
+Freed
+
+# resource SERIAL_TX 5 NONE
+Freed
+
+# resource SERIAL_TX 6 NONE
+Freed
+
+# resource SERIAL_TX 7 NONE
+Freed
+
+# resource SERIAL_TX 8 NONE
+Freed
+
+# resource SERIAL_TX 9 NONE
+Freed
+
+# resource SERIAL_TX 10 NONE
+Freed
+
+# resource SERIAL_TX 11 NONE
+Freed
+
+# resource SERIAL_TX 12 NONE
+Freed
+
+# resource SERIAL_RX 1 A10
+ A10 set
+
+# resource SERIAL_RX 2 A15
+ A15 set
+
+# resource SERIAL_RX 3 B11
+ B11 set
+
+# resource SERIAL_RX 4 NONE
+Freed
+
+# resource SERIAL_RX 5 NONE
+Freed
+
+# resource SERIAL_RX 6 NONE
+Freed
+
+# resource SERIAL_RX 7 NONE
+Freed
+
+# resource SERIAL_RX 8 NONE
+Freed
+
+# resource SERIAL_RX 9 NONE
+Freed
+
+# resource SERIAL_RX 10 NONE
+Freed
+
+# resource SERIAL_RX 11 NONE
+Freed
+
+# resource SERIAL_RX 12 NONE
+Freed
+
+# mixer QUADX
+Mixer: QUADX
+
+# mmix reset
+
+# servo 0 1000 2000 1500 90 90 100 -1
+###ERROR### Parse error
+
+# servo 1 1000 2000 1500 90 90 100 -1
+###ERROR### Parse error
+
+# servo 2 1000 2000 1500 90 90 100 -1
+###ERROR### Parse error
+
+# servo 3 1000 2000 1500 90 90 100 -1
+###ERROR### Parse error
+
+# servo 4 1000 2000 1500 90 90 100 -1
+###ERROR### Parse error
+
+# servo 5 1000 2000 1500 90 90 100 -1
+###ERROR### Parse error
+
+# servo 6 1000 2000 1500 90 90 100 -1
+###ERROR### Parse error
+
+# servo 7 1000 2000 1500 90 90 100 -1
+###ERROR### Parse error
+
+# smix reset
+
+# feature -RX_PPM
+Disabled RX_PPM
+
+# feature -VBAT
+###ERROR### Invalid name
+
+# feature -INFLIGHT_ACC_CAL
+Disabled INFLIGHT_ACC_CAL
+
+# feature -RX_SERIAL
+Disabled RX_SERIAL
+
+# feature -MOTOR_STOP
+Disabled MOTOR_STOP
+
+# feature -SERVO_TILT
+Disabled SERVO_TILT
+
+# feature -SOFTSERIAL
+Disabled SOFTSERIAL
+
+# feature -GPS
+unavailable
+
+# feature -FAILSAFE
+###ERROR### Invalid name
+
+# feature -SONAR
+###ERROR### Invalid name
+
+# feature -TELEMETRY
+Disabled TELEMETRY
+
+# feature -CURRENT_METER
+###ERROR### Invalid name
+
+# feature -3D
+Disabled 3D
+
+# feature -RX_PARALLEL_PWM
+Disabled RX_PARALLEL_PWM
+
+# feature -RX_MSP
+Disabled RX_MSP
+
+# feature -RSSI_ADC
+Disabled RSSI_ADC
+
+# feature -LED_STRIP
+Disabled LED_STRIP
+
+# feature -DISPLAY
+Disabled DISPLAY
+
+# feature -OSD
+Disabled OSD
+
+# feature -BLACKBOX
+###ERROR### Invalid name
+
+# feature -CHANNEL_FORWARDING
+Disabled CHANNEL_FORWARDING
+
+# feature -TRANSPONDER
+Disabled TRANSPONDER
+
+# feature -AIRMODE
+Disabled AIRMODE
+
+# feature -SDCARD
+###ERROR### Invalid name
+
+# feature -VTX
+###ERROR### Invalid name
+
+# feature -RX_SPI
+Disabled RX_SPI
+
+# feature -SOFTSPI
+Disabled SOFTSPI
+
+# feature -ESC_SENSOR
+Disabled ESC_SENSOR
+
+# feature -FEATURE_ANTI_GRAVITY
+###ERROR### Invalid name
+
+# feature VBAT
+###ERROR### Invalid name
+
+# feature RX_SERIAL
+Enabled RX_SERIAL
+
+# feature MOTOR_STOP
+Enabled MOTOR_STOP
+
+# feature FAILSAFE
+###ERROR### Invalid name
+
+# feature CURRENT_METER
+###ERROR### Invalid name
+
+# feature LED_STRIP
+Enabled LED_STRIP
+
+# feature OSD
+Enabled OSD
+
+# beeper GYRO_CALIBRATED
+Enabled GYRO_CALIBRATED
+
+# beeper RX_LOST
+Enabled RX_LOST
+
+# beeper RX_LOST_LANDING
+Enabled RX_LOST_LANDING
+
+# beeper DISARMING
+Enabled DISARMING
+
+# beeper ARMING
+Enabled ARMING
+
+# beeper ARMING_GPS_FIX
+Enabled ARMING_GPS_FIX
+
+# beeper BAT_CRIT_LOW
+Enabled BAT_CRIT_LOW
+
+# beeper BAT_LOW
+Enabled BAT_LOW
+
+# beeper GPS_STATUS
+Enabled GPS_STATUS
+
+# beeper RX_SET
+Enabled RX_SET
+
+# beeper ACC_CALIBRATION
+Enabled ACC_CALIBRATION
+
+# beeper ACC_CALIBRATION_FAIL
+Enabled ACC_CALIBRATION_FAIL
+
+# beeper READY_BEEP
+Enabled READY_BEEP
+
+# beeper MULTI_BEEPS
+Enabled MULTI_BEEPS
+
+# beeper DISARM_REPEAT
+Enabled DISARM_REPEAT
+
+# beeper ARMED
+Enabled ARMED
+
+# beeper SYSTEM_INIT
+Enabled SYSTEM_INIT
+
+# beeper ON_USB
+Enabled ON_USB
+
+# map TAER1234
+map TAER1234
+
+# serial 20 1 115200 57600 0 115200
+serial 20 1 115200 57600 0 115200
+
+# serial 0 0 115200 57600 0 115200
+serial 0 0 115200 57600 0 115200
+
+# serial 1 0 115200 57600 0 115200
+serial 1 0 115200 57600 0 115200
+
+# serial 2 64 115200 57600 0 115200
+serial 2 64 115200 57600 0 115200
+
+# led 0 0,0::CI:2
+Unknown command, try 'help'
+# led 1 15,0::CI:2
+Unknown command, try 'help'
+# led 2 0,0::C:0
+Unknown command, try 'help'
+# led 3 0,0::C:0
+Unknown command, try 'help'
+# led 4 0,0::C:0
+Unknown command, try 'help'
+# led 5 0,0::C:0
+Unknown command, try 'help'
+# led 6 0,0::C:0
+Unknown command, try 'help'
+# led 7 0,0::C:0
+Unknown command, try 'help'
+# led 8 0,0::C:0
+Unknown command, try 'help'
+# led 9 0,0::C:0
+Unknown command, try 'help'
+# led 10 0,0::C:0
+Unknown command, try 'help'
+# led 11 0,0::C:0
+Unknown command, try 'help'
+# led 12 0,0::C:0
+Unknown command, try 'help'
+# led 13 0,0::C:0
+Unknown command, try 'help'
+# led 14 0,0::C:0
+Unknown command, try 'help'
+# led 15 0,0::C:0
+Unknown command, try 'help'
+# led 16 0,0::C:0
+Unknown command, try 'help'
+# led 17 0,0::C:0
+Unknown command, try 'help'
+# led 18 0,0::C:0
+Unknown command, try 'help'
+# led 19 0,0::C:0
+Unknown command, try 'help'
+# led 20 0,0::C:0
+Unknown command, try 'help'
+# led 21 0,0::C:0
+Unknown command, try 'help'
+# led 22 0,0::C:0
+Unknown command, try 'help'
+# led 23 0,0::C:0
+Unknown command, try 'help'
+# led 24 0,0::C:0
+Unknown command, try 'help'
+# led 25 0,0::C:0
+Unknown command, try 'help'
+# led 26 0,0::C:0
+Unknown command, try 'help'
+# led 27 0,0::C:0
+Unknown command, try 'help'
+# led 28 0,0::C:0
+Unknown command, try 'help'
+# led 29 0,0::C:0
+Unknown command, try 'help'
+# led 30 0,0::C:0
+Unknown command, try 'help'
+# led 31 0,0::C:0
+Unknown command, try 'help'
+# color 0 0,0,0
+Unknown command, try 'help'
+# color 1 0,255,255
+Unknown command, try 'help'
+# color 2 0,0,255
+Unknown command, try 'help'
+# color 3 30,0,255
+Unknown command, try 'help'
+# color 4 60,0,255
+Unknown command, try 'help'
+# color 5 90,0,255
+Unknown command, try 'help'
+# color 6 120,0,255
+Unknown command, try 'help'
+# color 7 150,0,255
+Unknown command, try 'help'
+# color 8 180,0,255
+Unknown command, try 'help'
+# color 9 210,0,255
+Unknown command, try 'help'
+# color 10 240,0,255
+Unknown command, try 'help'
+# color 11 270,0,255
+Unknown command, try 'help'
+# color 12 300,0,255
+Unknown command, try 'help'
+# color 13 330,0,255
+Unknown command, try 'help'
+# color 14 0,0,0
+Unknown command, try 'help'
+# color 15 0,0,0
+Unknown command, try 'help'
+# mode_color 0 0 1
+Unknown command, try 'help'
+# mode_color 0 1 11
+Unknown command, try 'help'
+# mode_color 0 2 2
+Unknown command, try 'help'
+# mode_color 0 3 13
+Unknown command, try 'help'
+# mode_color 0 4 10
+Unknown command, try 'help'
+# mode_color 0 5 3
+Unknown command, try 'help'
+# mode_color 1 0 5
+Unknown command, try 'help'
+# mode_color 1 1 11
+Unknown command, try 'help'
+# mode_color 1 2 3
+Unknown command, try 'help'
+# mode_color 1 3 13
+Unknown command, try 'help'
+# mode_color 1 4 10
+Unknown command, try 'help'
+# mode_color 1 5 3
+Unknown command, try 'help'
+# mode_color 2 0 10
+Unknown command, try 'help'
+# mode_color 2 1 11
+Unknown command, try 'help'
+# mode_color 2 2 4
+Unknown command, try 'help'
+# mode_color 2 3 13
+Unknown command, try 'help'
+# mode_color 2 4 10
+Unknown command, try 'help'
+# mode_color 2 5 3
+Unknown command, try 'help'
+# mode_color 3 0 8
+Unknown command, try 'help'
+# mode_color 3 1 11
+Unknown command, try 'help'
+# mode_color 3 2 4
+Unknown command, try 'help'
+# mode_color 3 3 13
+Unknown command, try 'help'
+# mode_color 3 4 10
+Unknown command, try 'help'
+# mode_color 3 5 3
+Unknown command, try 'help'
+# mode_color 4 0 7
+Unknown command, try 'help'
+# mode_color 4 1 11
+Unknown command, try 'help'
+# mode_color 4 2 3
+Unknown command, try 'help'
+# mode_color 4 3 13
+Unknown command, try 'help'
+# mode_color 4 4 10
+Unknown command, try 'help'
+# mode_color 4 5 3
+Unknown command, try 'help'
+# mode_color 5 0 9
+Unknown command, try 'help'
+# mode_color 5 1 11
+Unknown command, try 'help'
+# mode_color 5 2 2
+Unknown command, try 'help'
+# mode_color 5 3 13
+Unknown command, try 'help'
+# mode_color 5 4 10
+Unknown command, try 'help'
+# mode_color 5 5 3
+Unknown command, try 'help'
+# mode_color 6 0 6
+Unknown command, try 'help'
+# mode_color 6 1 10
+Unknown command, try 'help'
+# mode_color 6 2 1
+Unknown command, try 'help'
+# mode_color 6 3 0
+Unknown command, try 'help'
+# mode_color 6 4 0
+Unknown command, try 'help'
+# mode_color 6 5 2
+Unknown command, try 'help'
+# mode_color 6 6 3
+Unknown command, try 'help'
+# mode_color 6 7 6
+Unknown command, try 'help'
+# mode_color 6 8 0
+Unknown command, try 'help'
+# mode_color 6 9 0
+Unknown command, try 'help'
+# mode_color 6 10 0
+Unknown command, try 'help'
+# mode_color 7 0 3
+Unknown command, try 'help'
+# aux 0 0 0 1700 2100
+aux 0 0 0 1700 2100 0 0
+
+# aux 1 28 1 1300 2100
+aux 1 23 1 1300 2100 0 0
+
+# aux 2 1 1 900 1300
+aux 2 1 1 900 1300 0 0
+
+# aux 3 2 1 1300 1700
+aux 3 2 1 1300 1700 0 0
+
+# aux 4 13 2 1700 2100
+aux 4 14 2 1700 2100 0 0
+
+# aux 5 15 2 1300 1700
+aux 5 15 2 1300 1700 0 0
+
+# aux 6 0 0 900 900
+aux 6 0 0 900 900 0 0
+
+# aux 7 0 0 900 900
+aux 7 0 0 900 900 0 0
+
+# aux 8 0 0 900 900
+aux 8 0 0 900 900 0 0
+
+# aux 9 0 0 900 900
+aux 9 0 0 900 900 0 0
+
+# aux 10 0 0 900 900
+aux 10 0 0 900 900 0 0
+
+# aux 11 0 0 900 900
+aux 11 0 0 900 900 0 0
+
+# aux 12 0 0 900 900
+aux 12 0 0 900 900 0 0
+
+# aux 13 0 0 900 900
+aux 13 0 0 900 900 0 0
+
+# aux 14 0 0 900 900
+aux 14 0 0 900 900 0 0
+
+# aux 15 0 0 900 900
+aux 15 0 0 900 900 0 0
+
+# aux 16 0 0 900 900
+aux 16 0 0 900 900 0 0
+
+# aux 17 0 0 900 900
+aux 17 0 0 900 900 0 0
+
+# aux 18 0 0 900 900
+aux 18 0 0 900 900 0 0
+
+# aux 19 0 0 900 900
+aux 19 0 0 900 900 0 0
+
+# adjrange 0 0 3 900 1300 12 3
+adjrange 0 0 3 900 1300 12 3 0 0
+
+# adjrange 1 1 3 1300 1700 12 3
+adjrange 1 1 3 1300 1700 12 3 0 0
+
+# adjrange 2 2 3 1700 2100 12 3
+adjrange 2 2 3 1700 2100 12 3 0 0
+
+# adjrange 3 0 0 900 900 0 0
+adjrange 3 0 0 900 900 0 0 0 0
+
+# adjrange 4 0 0 900 900 0 0
+adjrange 4 0 0 900 900 0 0 0 0
+
+# adjrange 5 0 0 900 900 0 0
+adjrange 5 0 0 900 900 0 0 0 0
+
+# adjrange 6 0 0 900 900 0 0
+adjrange 6 0 0 900 900 0 0 0 0
+
+# adjrange 7 0 0 900 900 0 0
+adjrange 7 0 0 900 900 0 0 0 0
+
+# adjrange 8 0 0 900 900 0 0
+adjrange 8 0 0 900 900 0 0 0 0
+
+# adjrange 9 0 0 900 900 0 0
+adjrange 9 0 0 900 900 0 0 0 0
+
+# adjrange 10 0 0 900 900 0 0
+adjrange 10 0 0 900 900 0 0 0 0
+
+# adjrange 11 0 0 900 900 0 0
+adjrange 11 0 0 900 900 0 0 0 0
+
+# adjrange 12 0 0 900 900 0 0
+adjrange 12 0 0 900 900 0 0 0 0
+
+# adjrange 13 0 0 900 900 0 0
+adjrange 13 0 0 900 900 0 0 0 0
+
+# adjrange 14 0 0 900 900 0 0
+adjrange 14 0 0 900 900 0 0 0 0
+
+# rxrange 0 1000 2000
+rxrange 0 1000 2000
+
+# rxrange 1 1000 2000
+rxrange 1 1000 2000
+
+# rxrange 2 1000 2000
+rxrange 2 1000 2000
+
+# rxrange 3 1000 2000
+rxrange 3 1000 2000
+
+# rxfail 0 a
+rxfail 0 a
+
+# rxfail 1 a
+rxfail 1 a
+
+# rxfail 2 a
+rxfail 2 a
+
+# rxfail 3 h
+rxfail 3 h
+
+# rxfail 4 h
+rxfail 4 h
+
+# rxfail 5 h
+rxfail 5 h
+
+# rxfail 6 h
+rxfail 6 h
+
+# rxfail 7 h
+rxfail 7 h
+
+# rxfail 8 h
+rxfail 8 h
+
+# rxfail 9 h
+rxfail 9 h
+
+# rxfail 10 h
+rxfail 10 h
+
+# rxfail 11 h
+rxfail 11 h
+
+# rxfail 12 h
+rxfail 12 h
+
+# rxfail 13 h
+rxfail 13 h
+
+# rxfail 14 h
+rxfail 14 h
+
+# rxfail 15 h
+rxfail 15 h
+
+# rxfail 16 h
+rxfail 16 h
+
+# rxfail 17 h
+rxfail 17 h
+
+# set task_statistics = ON
+task_statistics set to ON
+# set mid_rc = 1500
+mid_rc set to 1500
+# set min_check = 1030
+min_check set to 1030
+# set max_check = 1900
+max_check set to 1900
+# set rssi_channel = 0
+rssi_channel set to 0
+# set rssi_scale = 30
+rssi_scale set to 30
+# set rc_interp = AUTO
+rc_interp set to AUTO
+# set rc_interp_ch = RP
+rc_interp_ch set to RP
+# set rc_interp_int = 19
+rc_interp_int set to 19
+# set rssi_invert = OFF
+rssi_invert set to OFF
+# set input_filtering_mode = OFF
+###ERROR### Invalid name
+
+# set fpv_mix_degrees = 0
+fpv_mix_degrees set to 0
+# set max_aux_channels = 6
+max_aux_channels set to 6
+# set debug_mode = NONE
+debug_mode set to NONE
+# set min_throttle = 1070
+min_throttle set to 1070
+# set max_throttle = 2000
+max_throttle set to 2000
+# set min_command = 1000
+min_command set to 1000
+# set digital_idle_percent =  4.500
+###ERROR### Invalid name
+
+# set 3d_deadband_low = 1406
+3d_deadband_low set to 1406
+# set 3d_deadband_high = 1514
+3d_deadband_high set to 1514
+# set 3d_neutral = 1460
+3d_neutral set to 1460
+# set 3d_deadband_throttle = 50
+3d_deadband_throttle set to 50
+# set use_unsynced_pwm = OFF
+use_unsynced_pwm set to OFF
+# set motor_pwm_protocol = DSHOT600
+motor_pwm_protocol set to DSHOT600
+# set motor_pwm_rate = 480
+motor_pwm_rate set to 480
+# set disarm_kill_switch = ON
+###ERROR### Invalid name
+
+# set gyro_cal_on_first_arm = OFF
+gyro_cal_on_first_arm set to OFF
+# set auto_disarm_delay = 5
+auto_disarm_delay set to 5
+# set small_angle = 25
+small_angle set to 25
+# set fixedwing_althold_dir = 1
+###ERROR### Invalid name
+
+# set reboot_character = 82
+reboot_character set to 82
+# set serial_update_rate_hz = 100
+serial_update_rate_hz set to 100
+# set beeper_inversion = ON
+beeper_inversion set to ON
+# set beeper_od = OFF
+beeper_od set to OFF
+# set serialrx_provider = SBUS
+serialrx_provider set to SBUS
+# set sbus_inversion = ON
+###ERROR### Invalid name
+
+# set spektrum_sat_bind = 0
+spektrum_sat_bind set to 0
+# set spektrum_sat_bind_autorst = 1
+###ERROR### Invalid name
+
+# set tlm_switch = OFF
+###ERROR### Invalid name
+
+# set tlm_inversion = ON
+###ERROR### Invalid name
+
+# set sport_halfduplex = ON
+###ERROR### Invalid name
+
+# set frsky_default_lat =  0.000
+###ERROR### Invalid name
+
+# set frsky_default_long =  0.000
+###ERROR### Invalid name
+
+# set frsky_gps_format = 0
+###ERROR### Invalid name
+
+# set frsky_unit = IMPERIAL
+###ERROR### Invalid name
+
+# set frsky_vfas_precision = 0
+frsky_vfas_precision set to 0
+# set frsky_vfas_cell_voltage = OFF
+###ERROR### Invalid name
+
+# set hott_alarm_int = 5
+hott_alarm_int set to 5
+# set pid_in_tlm = OFF
+pid_in_tlm set to OFF
+# set bat_capacity = 0
+bat_capacity set to 0
+# set vbat_scale = 110
+vbat_scale set to 110
+# set vbat_max_cell_voltage = 43
+vbat_max_cell_voltage set to 43
+# set vbat_min_cell_voltage = 33
+vbat_min_cell_voltage set to 33
+# set vbat_warning_cell_voltage = 35
+vbat_warning_cell_voltage set to 35
+# set vbat_hysteresis = 1
+vbat_hysteresis set to 1
+# set ibat_scale = 400
+###ERROR### Invalid name
+
+# set ibat_offset = 0
+###ERROR### Invalid name
+
+# set mwii_ibat_output = OFF
+###ERROR### Invalid name
+
+# set current_meter_type = ADC
+###ERROR### Invalid name
+
+# set battery_meter_type = ADC
+###ERROR### Invalid name
+
+# set bat_detect_thresh = 55
+###ERROR### Invalid name
+
+# set use_vbat_alerts = ON
+use_vbat_alerts set to ON
+# set use_cbat_alerts = OFF
+use_cbat_alerts set to OFF
+# set cbat_alert_percent = 10
+cbat_alert_percent set to 10
+# set align_gyro = DEFAULT
+align_gyro set to DEFAULT
+# set align_acc = DEFAULT
+align_acc set to DEFAULT
+# set align_mag = DEFAULT
+###ERROR### Invalid name
+
+# set align_board_roll = 0
+align_board_roll set to 0
+# set align_board_pitch = 0
+align_board_pitch set to 0
+# set align_board_yaw = 0
+align_board_yaw set to 0
+# set gyro_lpf = OFF
+###ERROR### Invalid name
+
+# set gyro_sync_denom = 1
+gyro_sync_denom set to 1
+# set gyro_isr_update = OFF
+###ERROR### Invalid name
+
+# set gyro_use_32khz = OFF
+###ERROR### Invalid name
+
+# set gyro_lowpass_type = PT1
+gyro_lowpass_type set to PT1
+# set gyro_lowpass = 90
+###ERROR### Invalid name
+
+# set gyro_notch1_hz = 0
+gyro_notch1_hz set to 0
+# set gyro_notch1_cut = 0
+###ERROR### Invalid name
+
+# set gyro_notch2_hz = 0
+gyro_notch2_hz set to 0
+# set gyro_notch2_cut = 0
+###ERROR### Invalid name
+
+# set moron_threshold = 48
+###ERROR### Invalid name
+
+# set imu_dcm_kp = 2500
+imu_dcm_kp set to 2500
+# set imu_dcm_ki = 0
+imu_dcm_ki set to 0
+# set alt_hold_deadband = 40
+###ERROR### Invalid name
+
+# set alt_hold_fast_change = ON
+###ERROR### Invalid name
+
+# set deadband = 3
+deadband set to 3
+# set yaw_deadband = 3
+yaw_deadband set to 3
+# set thr_corr_value = 0
+thr_corr_value set to 0
+# set thr_corr_angle = 800
+thr_corr_angle set to 800
+# set yaw_control_direction = 1
+###ERROR### Invalid name
+
+# set yaw_motor_direction = 1
+###ERROR### Invalid name
+
+# set servo_center_pulse = 1500
+servo_center_pulse set to 1500
+# set tri_unarmed_servo = ON
+tri_unarmed_servo set to ON
+# set servo_lowpass_hz = 400
+servo_lowpass_hz set to 400
+# set servo_lowpass = OFF
+###ERROR### Invalid name
+
+# set servo_pwm_rate = 50
+servo_pwm_rate set to 50
+# set gimbal_mode = NORMAL
+gimbal_mode set to NORMAL
+# set channel_forwarding_start = 4
+channel_forwarding_start set to 4
+# set airmode_start_throttle = 1350
+###ERROR### Invalid name
+
+# set failsafe_delay = 30
+failsafe_delay set to 30
+# set failsafe_off_delay = 10
+failsafe_off_delay set to 10
+# set failsafe_throttle = 1000
+failsafe_throttle set to 1000
+# set failsafe_kill_switch = ON
+###ERROR### Invalid name
+
+# set failsafe_throttle_low_delay = 100
+failsafe_throttle_low_delay set to 100
+# set failsafe_procedure = DROP
+failsafe_procedure set to DROP
+# set rx_min_usec = 885
+rx_min_usec set to 885
+# set rx_max_usec = 2115
+rx_max_usec set to 2115
+# set acc_hardware = AUTO
+acc_hardware set to AUTO
+# set acc_lpf_hz = 10
+acc_lpf_hz set to 10
+# set accxy_deadband = 40
+accxy_deadband set to 40
+# set accz_deadband = 40
+accz_deadband set to 40
+# set acc_unarmedcal = ON
+acc_unarmedcal set to ON
+# set acc_trim_pitch = 0
+acc_trim_pitch set to 0
+# set acc_trim_roll = 0
+acc_trim_roll set to 0
+# set baro_tab_size = 21
+baro_tab_size set to 21
+# set baro_noise_lpf =  0.600
+baro_noise_lpf set to 0
+# set baro_cf_vel =  0.985
+baro_cf_vel set to 0
+# set baro_cf_alt =  0.965
+baro_cf_alt set to 0
+# set baro_hardware = NONE
+baro_hardware set to NONE
+# set mag_hardware = NONE
+###ERROR### Invalid name
+
+# set mag_declination = 0
+###ERROR### Invalid name
+
+# set pid_process_denom = 4
+pid_process_denom set to 4
+# set blackbox_rate_num = 1
+###ERROR### Invalid name
+
+# set blackbox_rate_denom = 1
+###ERROR### Invalid name
+
+# set blackbox_device = SDCARD
+blackbox_device set to SDCARD
+# set blackbox_on_motor_test = OFF
+###ERROR### Invalid name
+
+# set magzero_x = 0
+###ERROR### Invalid name
+
+# set magzero_y = 0
+###ERROR### Invalid name
+
+# set magzero_z = 0
+###ERROR### Invalid name
+
+# set ledstrip_visual_beeper = OFF
+###ERROR### Invalid name
+
+# set sdcard_dma = OFF
+sdcard_dma set to OFF
+# set osd_units = IMPERIAL
+osd_units set to IMPERIAL
+# set osd_rssi_alarm = 20
+osd_rssi_alarm set to 20
+# set osd_cap_alarm = 2200
+osd_cap_alarm set to 2200
+# set osd_time_alarm = 10
+###ERROR### Invalid name
+
+# set osd_alt_alarm = 100
+osd_alt_alarm set to 100
+# set osd_vbat_pos = 2405
+osd_vbat_pos set to 2405
+# set osd_rssi_pos = 22
+osd_rssi_pos set to 22
+# set osd_flytimer_pos = 2454
+###ERROR### Invalid name
+
+# set osd_ontimer_pos = 2422
+###ERROR### Invalid name
+
+# set osd_flymode_pos = 2412
+osd_flymode_pos set to 2412
+# set osd_throttle_pos = 129
+osd_throttle_pos set to 129
+# set osd_vtx_channel_pos = 200
+osd_vtx_channel_pos set to 200
+# set osd_crosshairs = 2048
+###ERROR### Invalid name
+
+# set osd_horizon_pos = 200
+###ERROR### Invalid name
+
+# set osd_current_pos = 97
+osd_current_pos set to 97
+# set osd_mah_drawn_pos = 111
+osd_mah_drawn_pos set to 111
+# set osd_craft_name_pos = 396
+osd_craft_name_pos set to 396
+# set osd_gps_speed_pos = 66
+osd_gps_speed_pos set to 66
+# set osd_gps_sats_pos = 386
+osd_gps_sats_pos set to 386
+# set osd_altitude_pos = 161
+osd_altitude_pos set to 161
+# set osd_pid_roll_pos = 322
+osd_pid_roll_pos set to 322
+# set osd_pid_pitch_pos = 354
+osd_pid_pitch_pos set to 354
+# set osd_pid_yaw_pos = 386
+osd_pid_yaw_pos set to 386
+# set osd_power_pos = 47
+osd_power_pos set to 47
+# set osd_pidrate_profile_pos = 418
+osd_pidrate_profile_pos set to 418
+# set osd_battery_warning_pos = 200
+###ERROR### Invalid name
+
+# set vcd_video_system = 0
+###ERROR### Invalid value
+Allowed values: AUTO, PAL, NTSC
+
+# set vcd_h_offset = 0
+vcd_h_offset set to 0
+# set vcd_v_offset = 0
+vcd_v_offset set to 0
+# set displayport_msp_col_adjust = 0
+displayport_msp_col_adjust set to 0
+# set displayport_msp_row_adjust = 0
+displayport_msp_row_adjust set to 0
+# set displayport_max7456_col_adjust = 0
+displayport_max7456_col_adjust set to 0
+# set displayport_max7456_row_adjust = 0
+displayport_max7456_row_adjust set to 0
+# profile 0
+profile 0
+
+# set pidsum_limit =  0.500
+###ERROR### Invalid value
+Allowed range: 100 - 1000
+
+# set pidsum_limit_yaw =  0.500
+###ERROR### Invalid value
+Allowed range: 100 - 1000
+
+# set d_lowpass_type = BIQUAD
+###ERROR### Invalid name
+
+# set d_lowpass = 100
+###ERROR### Invalid name
+
+# set d_notch_hz = 260
+###ERROR### Invalid name
+
+# set d_notch_cut = 160
+###ERROR### Invalid name
+
+# set vbat_pid_gain = OFF
+vbat_pid_gain set to OFF
+# set pid_at_min_throttle = ON
+pid_at_min_throttle set to ON
+# set anti_gravity_thresh = 350
+###ERROR### Invalid name
+
+# set anti_gravity_gain =  3.000
+###ERROR### Invalid value
+Allowed range: 1000 - 30000
+
+# set setpoint_relax_ratio = 100
+###ERROR### Invalid name
+
+# set d_setpoint_weight = 60
+###ERROR### Invalid name
+
+# set yaw_accel_limit =  10.000
+###ERROR### Invalid name
+
+# set accel_limit =  0.000
+###ERROR### Invalid name
+
+# set iterm_windup = 50
+iterm_windup set to 50
+# set yaw_lowpass = 0
+###ERROR### Invalid name
+
+# set p_pitch = 58
+p_pitch set to 58
+# set i_pitch = 50
+i_pitch set to 50
+# set d_pitch = 35
+d_pitch set to 35
+# set p_roll = 40
+p_roll set to 40
+# set i_roll = 40
+i_roll set to 40
+# set d_roll = 30
+d_roll set to 30
+# set p_yaw = 36
+p_yaw set to 36
+# set i_yaw = 45
+i_yaw set to 45
+# set d_yaw = 20
+d_yaw set to 20
+# set p_alt = 50
+###ERROR### Invalid name
+
+# set i_alt = 0
+###ERROR### Invalid name
+
+# set d_alt = 0
+###ERROR### Invalid name
+
+# set p_level = 50
+p_level set to 50
+# set i_level = 45
+i_level set to 45
+# set d_level = 100
+d_level set to 100
+# set p_vel = 55
+###ERROR### Invalid name
+
+# set i_vel = 55
+###ERROR### Invalid name
+
+# set d_vel = 75
+###ERROR### Invalid name
+
+# set level_sensitivity = 55
+###ERROR### Invalid name
+
+# set level_limit = 55
+level_limit set to 55
+# rateprofile 0
+rateprofile 0
+
+# rateprofile 0
+rateprofile 0
+
+# set rc_rate = 100
+###ERROR### Invalid name
+
+# set rc_rate_yaw = 100
+###ERROR### Invalid name
+
+# set rc_expo = 10
+###ERROR### Invalid name
+
+# set rc_yaw_expo = 5
+###ERROR### Invalid name
+
+# set thr_mid = 50
+thr_mid set to 50
+# set thr_expo = 0
+thr_expo set to 0
+# set roll_srate = 68
+roll_srate set to 68
+# set pitch_srate = 68
+pitch_srate set to 68
+# set yaw_srate = 65
+yaw_srate set to 65
+# set tpa_rate = 10
+tpa_rate set to 10
+# set tpa_breakpoint = 1650
+tpa_breakpoint set to 1650
+# rateprofile 1
+rateprofile 1
+
+# set rc_rate = 100
+###ERROR### Invalid name
+
+# set rc_rate_yaw = 100
+###ERROR### Invalid name
+
+# set rc_expo = 10
+###ERROR### Invalid name
+
+# set rc_yaw_expo = 5
+###ERROR### Invalid name
+
+# set thr_mid = 50
+thr_mid set to 50
+# set thr_expo = 0
+thr_expo set to 0
+# set roll_srate = 71
+roll_srate set to 71
+# set pitch_srate = 71
+pitch_srate set to 71
+# set yaw_srate = 70
+yaw_srate set to 70
+# set tpa_rate = 10
+tpa_rate set to 10
+# set tpa_breakpoint = 1650
+tpa_breakpoint set to 1650
+# rateprofile 2
+rateprofile 2
+
+# set rc_rate = 100
+###ERROR### Invalid name
+
+# set rc_rate_yaw = 100
+###ERROR### Invalid name
+
+# set rc_expo = 10
+###ERROR### Invalid name
+
+# set rc_yaw_expo = 5
+###ERROR### Invalid name
+
+# set thr_mid = 50
+thr_mid set to 50
+# set thr_expo = 0
+thr_expo set to 0
+# set roll_srate = 78
+roll_srate set to 78
+# set pitch_srate = 78
+pitch_srate set to 78
+# set yaw_srate = 70
+yaw_srate set to 70
+# set tpa_rate = 10
+tpa_rate set to 10
+# set tpa_breakpoint = 1650
+tpa_breakpoint set to 1650
+# rateprofile 0
+rateprofile 0
+
+# profile 1
+profile 1
+
+# set pidsum_limit =  0.500
+###ERROR### Invalid value
+Allowed range: 100 - 1000
+
+# set pidsum_limit_yaw =  0.500
+###ERROR### Invalid value
+Allowed range: 100 - 1000
+
+# set d_lowpass_type = BIQUAD
+###ERROR### Invalid name
+
+# set d_lowpass = 100
+###ERROR### Invalid name
+
+# set d_notch_hz = 260
+###ERROR### Invalid name
+
+# set d_notch_cut = 160
+###ERROR### Invalid name
+
+# set vbat_pid_gain = OFF
+vbat_pid_gain set to OFF
+# set pid_at_min_throttle = ON
+pid_at_min_throttle set to ON
+# set anti_gravity_thresh = 350
+###ERROR### Invalid name
+
+# set anti_gravity_gain =  3.000
+###ERROR### Invalid value
+Allowed range: 1000 - 30000
+
+# set setpoint_relax_ratio = 100
+###ERROR### Invalid name
+
+# set d_setpoint_weight = 60
+###ERROR### Invalid name
+
+# set yaw_accel_limit =  10.000
+###ERROR### Invalid name
+
+# set accel_limit =  0.000
+###ERROR### Invalid name
+
+# set iterm_windup = 50
+iterm_windup set to 50
+# set yaw_lowpass = 0
+###ERROR### Invalid name
+
+# set p_pitch = 58
+p_pitch set to 58
+# set i_pitch = 50
+i_pitch set to 50
+# set d_pitch = 35
+d_pitch set to 35
+# set p_roll = 44
+p_roll set to 44
+# set i_roll = 40
+i_roll set to 40
+# set d_roll = 30
+d_roll set to 30
+# set p_yaw = 70
+p_yaw set to 70
+# set i_yaw = 45
+i_yaw set to 45
+# set d_yaw = 20
+d_yaw set to 20
+# set p_alt = 50
+###ERROR### Invalid name
+
+# set i_alt = 0
+###ERROR### Invalid name
+
+# set d_alt = 0
+###ERROR### Invalid name
+
+# set p_level = 50
+p_level set to 50
+# set i_level = 50
+i_level set to 50
+# set d_level = 100
+d_level set to 100
+# set p_vel = 55
+###ERROR### Invalid name
+
+# set i_vel = 55
+###ERROR### Invalid name
+
+# set d_vel = 75
+###ERROR### Invalid name
+
+# set level_sensitivity = 55
+###ERROR### Invalid name
+
+# set level_limit = 55
+level_limit set to 55
+# rateprofile 0
+rateprofile 0
+
+# rateprofile 0
+rateprofile 0
+
+# set rc_rate = 100
+###ERROR### Invalid name
+
+# set rc_rate_yaw = 100
+###ERROR### Invalid name
+
+# set rc_expo = 0
+###ERROR### Invalid name
+
+# set rc_yaw_expo = 0
+###ERROR### Invalid name
+
+# set thr_mid = 50
+thr_mid set to 50
+# set thr_expo = 0
+thr_expo set to 0
+# set roll_srate = 70
+roll_srate set to 70
+# set pitch_srate = 70
+pitch_srate set to 70
+# set yaw_srate = 70
+yaw_srate set to 70
+# set tpa_rate = 10
+tpa_rate set to 10
+# set tpa_breakpoint = 1650
+tpa_breakpoint set to 1650
+# rateprofile 1
+rateprofile 1
+
+# set rc_rate = 100
+###ERROR### Invalid name
+
+# set rc_rate_yaw = 100
+###ERROR### Invalid name
+
+# set rc_expo = 0
+###ERROR### Invalid name
+
+# set rc_yaw_expo = 0
+###ERROR### Invalid name
+
+# set thr_mid = 50
+thr_mid set to 50
+# set thr_expo = 0
+thr_expo set to 0
+# set roll_srate = 70
+roll_srate set to 70
+# set pitch_srate = 70
+pitch_srate set to 70
+# set yaw_srate = 70
+yaw_srate set to 70
+# set tpa_rate = 10
+tpa_rate set to 10
+# set tpa_breakpoint = 1650
+tpa_breakpoint set to 1650
+# rateprofile 2
+rateprofile 2
+
+# set rc_rate = 100
+###ERROR### Invalid name
+
+# set rc_rate_yaw = 100
+###ERROR### Invalid name
+
+# set rc_expo = 0
+###ERROR### Invalid name
+
+# set rc_yaw_expo = 0
+###ERROR### Invalid name
+
+# set thr_mid = 50
+thr_mid set to 50
+# set thr_expo = 0
+thr_expo set to 0
+# set roll_srate = 70
+roll_srate set to 70
+# set pitch_srate = 70
+pitch_srate set to 70
+# set yaw_srate = 70
+yaw_srate set to 70
+# set tpa_rate = 10
+tpa_rate set to 10
+# set tpa_breakpoint = 1650
+tpa_breakpoint set to 1650
+# rateprofile 0
+rateprofile 0
+
+# profile 2
+profile 2
+
+# set pidsum_limit =  0.500
+###ERROR### Invalid value
+Allowed range: 100 - 1000
+
+# set pidsum_limit_yaw =  0.500
+###ERROR### Invalid value
+Allowed range: 100 - 1000
+
+# set d_lowpass_type = BIQUAD
+###ERROR### Invalid name
+
+# set d_lowpass = 100
+###ERROR### Invalid name
+
+# set d_notch_hz = 260
+###ERROR### Invalid name
+
+# set d_notch_cut = 160
+###ERROR### Invalid name
+
+# set vbat_pid_gain = OFF
+vbat_pid_gain set to OFF
+# set pid_at_min_throttle = ON
+pid_at_min_throttle set to ON
+# set anti_gravity_thresh = 350
+###ERROR### Invalid name
+
+# set anti_gravity_gain =  3.000
+###ERROR### Invalid value
+Allowed range: 1000 - 30000
+
+# set setpoint_relax_ratio = 100
+###ERROR### Invalid name
+
+# set d_setpoint_weight = 60
+###ERROR### Invalid name
+
+# set yaw_accel_limit =  10.000
+###ERROR### Invalid name
+
+# set accel_limit =  0.000
+###ERROR### Invalid name
+
+# set iterm_windup = 50
+iterm_windup set to 50
+# set yaw_lowpass = 0
+###ERROR### Invalid name
+
+# set p_pitch = 58
+p_pitch set to 58
+# set i_pitch = 50
+i_pitch set to 50
+# set d_pitch = 35
+d_pitch set to 35
+# set p_roll = 44
+p_roll set to 44
+# set i_roll = 40
+i_roll set to 40
+# set d_roll = 30
+d_roll set to 30
+# set p_yaw = 70
+p_yaw set to 70
+# set i_yaw = 45
+i_yaw set to 45
+# set d_yaw = 20
+d_yaw set to 20
+# set p_alt = 50
+###ERROR### Invalid name
+
+# set i_alt = 0
+###ERROR### Invalid name
+
+# set d_alt = 0
+###ERROR### Invalid name
+
+# set p_level = 50
+p_level set to 50
+# set i_level = 50
+i_level set to 50
+# set d_level = 100
+d_level set to 100
+# set p_vel = 55
+###ERROR### Invalid name
+
+# set i_vel = 55
+###ERROR### Invalid name
+
+# set d_vel = 75
+###ERROR### Invalid name
+
+# set level_sensitivity = 55
+###ERROR### Invalid name
+
+# set level_limit = 55
+level_limit set to 55
+# rateprofile 0
+rateprofile 0
+
+# rateprofile 0
+rateprofile 0
+
+# set rc_rate = 100
+###ERROR### Invalid name
+
+# set rc_rate_yaw = 100
+###ERROR### Invalid name
+
+# set rc_expo = 0
+###ERROR### Invalid name
+
+# set rc_yaw_expo = 0
+###ERROR### Invalid name
+
+# set thr_mid = 50
+thr_mid set to 50
+# set thr_expo = 0
+thr_expo set to 0
+# set roll_srate = 70
+roll_srate set to 70
+# set pitch_srate = 70
+pitch_srate set to 70
+# set yaw_srate = 70
+yaw_srate set to 70
+# set tpa_rate = 10
+tpa_rate set to 10
+# set tpa_breakpoint = 1650
+tpa_breakpoint set to 1650
+# rateprofile 1
+rateprofile 1
+
+# set rc_rate = 100
+###ERROR### Invalid name
+
+# set rc_rate_yaw = 100
+###ERROR### Invalid name
+
+# set rc_expo = 0
+###ERROR### Invalid name
+
+# set rc_yaw_expo = 0
+###ERROR### Invalid name
+
+# set thr_mid = 50
+thr_mid set to 50
+# set thr_expo = 0
+thr_expo set to 0
+# set roll_srate = 70
+roll_srate set to 70
+# set pitch_srate = 70
+pitch_srate set to 70
+# set yaw_srate = 70
+yaw_srate set to 70
+# set tpa_rate = 10
+tpa_rate set to 10
+# set tpa_breakpoint = 1650
+tpa_breakpoint set to 1650
+# rateprofile 2
+rateprofile 2
+
+# set rc_rate = 100
+###ERROR### Invalid name
+
+# set rc_rate_yaw = 100
+###ERROR### Invalid name
+
+# set rc_expo = 0
+###ERROR### Invalid name
+
+# set rc_yaw_expo = 0
+###ERROR### Invalid name
+
+# set thr_mid = 50
+thr_mid set to 50
+# set thr_expo = 0
+thr_expo set to 0
+# set roll_srate = 70
+roll_srate set to 70
+# set pitch_srate = 70
+pitch_srate set to 70
+# set yaw_srate = 70
+yaw_srate set to 70
+# set tpa_rate = 10
+tpa_rate set to 10
+# set tpa_breakpoint = 1650
+tpa_breakpoint set to 1650
+# rateprofile 0
+rateprofile 0
+
+# profile 0
+profile 0
+
+# 
