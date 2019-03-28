@@ -1,0 +1,52 @@
+# version
+# BetaFlight/SPRACINGF3 3.0.1 Oct 18 2016 / 10:35:52 (48b7b4f)
+
+# name
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+
+# beeper
+
+# map
+
+# serial
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1825 2050
+aux 2 2 1 1300 1700
+
+# adjrange
+
+# rxrange
+
+# rxfail
+
+# master
+set min_throttle = 1040
+set 3d_deadband_throttle = 0
+set align_board_yaw = -90
+set baro_cf_vel =  0.985
+
+# profile
+profile 0
+
+rateprofile 0
+
+# rateprofile
+rateprofile 0
+
+
+# 

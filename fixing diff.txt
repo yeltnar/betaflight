@@ -1,0 +1,13 @@
+# aux
+aux 0 0 0 1825 2050
+aux 2 2 1 1300 1700
+
+# master
+set min_check = 0
+set max_check = 0
+set rc_interpolation = OFF
+set min_throttle = 1040
+set 3d_deadband_throttle = 0
+set align_board_yaw = -90
+
+save
