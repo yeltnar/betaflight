@@ -1,4 +1,7 @@
-dump
+# 
+# Building AutoComplete Cache ... Done!
+# 
+# dump
 
 # version
 # Betaflight / FURYF4OSD (FY4O) 3.5.1 Sep  8 2018 / 05:21:25 (d9fb5ca13) MSP API: 1.40
@@ -222,7 +225,7 @@ beacon CAM_CONNECTION_CLOSED
 beacon RC_SMOOTHING_INIT_FAIL
 
 # map
-map AETR1234
+map TAER1234
 
 # serial
 serial 20 1 115200 57600 0 115200
@@ -334,10 +337,10 @@ mode_color 7 0 3
 
 # aux
 aux 0 0 0 1850 2100 0 0
-aux 1 28 0 1850 2100 0 0
-aux 2 0 0 900 900 0 0
-aux 3 0 0 900 900 0 0
-aux 4 0 0 900 900 0 0
+aux 1 1 1 900 1225 0 0
+aux 2 2 1 1300 1700 0 0
+aux 3 13 2 1775 2100 0 0
+aux 4 28 0 1850 2100 0 0
 aux 5 0 0 900 900 0 0
 aux 6 0 0 900 900 0 0
 aux 7 0 0 900 900 0 0
@@ -432,7 +435,7 @@ set gyro_use_32khz = OFF
 set dyn_notch_quality = 70
 set dyn_notch_width_percent = 50
 set align_acc = DEFAULT
-set acc_hardware = NONE
+set acc_hardware = AUTO
 set acc_lpf_hz = 10
 set acc_trim_pitch = 0
 set acc_trim_roll = 0
@@ -508,7 +511,7 @@ set vbat_cutoff_percent = 100
 set vbat_scale = 110
 set vbat_divider = 10
 set vbat_multiplier = 1
-set ibata_scale = 255
+set ibata_scale = 306
 set ibata_offset = 0
 set ibatv_scale = 0
 set ibatv_offset = 0
@@ -612,12 +615,12 @@ set osd_anti_gravity_pos = 234
 set osd_g_force_pos = 234
 set osd_throttle_pos = 234
 set osd_vtx_channel_pos = 2455
-set osd_crosshairs_pos = 205
-set osd_ah_sbar_pos = 206
-set osd_ah_pos = 78
+set osd_crosshairs_pos = 206
+set osd_ah_sbar_pos = 207
+set osd_ah_pos = 143
 set osd_current_pos = 406
 set osd_mah_drawn_pos = 2507
-set osd_craft_name_pos = 2097
+set osd_craft_name_pos = 49
 set osd_gps_speed_pos = 234
 set osd_gps_lon_pos = 234
 set osd_gps_lat_pos = 234
@@ -634,8 +637,8 @@ set osd_power_pos = 234
 set osd_pidrate_profile_pos = 410
 set osd_warnings_pos = 329
 set osd_avg_cell_voltage_pos = 2433
-set osd_pit_ang_pos = 234
-set osd_rol_ang_pos = 234
+set osd_pit_ang_pos = 116
+set osd_rol_ang_pos = 102
 set osd_battery_usage_pos = 234
 set osd_disarmed_pos = 234
 set osd_nheading_pos = 234
@@ -664,11 +667,11 @@ set debug_mode = NONE
 set rate_6pos_switch = OFF
 set cpu_overclock = OFF
 set pwr_on_arm_grace = 5
-set vtx_band = 5
-set vtx_channel = 3
-set vtx_power = 1
+set vtx_band = 4
+set vtx_channel = 7
+set vtx_power = 4
 set vtx_low_power_disarm = OFF
-set vtx_freq = 5732
+set vtx_freq = 5860
 set vtx_pit_mode_freq = 0
 set vtx_halfduplex = ON
 set vcd_video_system = AUTO
@@ -702,19 +705,19 @@ set rcdevice_init_dev_attempts = 4
 set rcdevice_init_dev_attempt_interval = 1000
 
 # profile
-profile 0
+profile 1
 
 set dterm_lowpass_type = PT1
 set dterm_lowpass_hz = 100
-set dterm_lowpass2_hz = 250
+set dterm_lowpass2_hz = 200
 set dterm_notch_hz = 0
-set dterm_notch_cutoff = 0
+set dterm_notch_cutoff = 160
 set vbat_pid_gain = OFF
 set pid_at_min_throttle = ON
 set anti_gravity_mode = SMOOTH
 set anti_gravity_threshold = 250
 set anti_gravity_gain = 5000
-set feedforward_transition = 40
+set feedforward_transition = 0
 set acc_limit_yaw = 100
 set acc_limit = 0
 set crash_dthreshold = 50
@@ -728,7 +731,7 @@ set crash_limit_yaw = 200
 set crash_recovery = OFF
 set iterm_rotation = ON
 set smart_feedforward = OFF
-set iterm_relax = RP
+set iterm_relax = OFF
 set iterm_relax_type = GYRO
 set iterm_relax_cutoff = 11
 set iterm_windup = 40
@@ -742,18 +745,18 @@ set acro_trainer_angle_limit = 20
 set acro_trainer_lookahead_ms = 50
 set acro_trainer_debug_axis = ROLL
 set acro_trainer_gain = 75
-set p_pitch = 35
-set i_pitch = 51
-set d_pitch = 29
-set f_pitch = 75
-set p_roll = 33
+set p_pitch = 50
+set i_pitch = 50
+set d_pitch = 27
+set f_pitch = 60
+set p_roll = 46
 set i_roll = 45
-set d_roll = 27
-set f_roll = 75
-set p_yaw = 40
-set i_yaw = 47
-set d_yaw = 2
-set f_yaw = 80
+set d_roll = 25
+set f_roll = 60
+set p_yaw = 65
+set i_yaw = 45
+set d_yaw = 0
+set f_yaw = 60
 set p_level = 50
 set i_level = 50
 set d_level = 75
@@ -783,5 +786,3 @@ set tpa_rate = 25
 set tpa_breakpoint = 1650
 set throttle_limit_type = OFF
 set throttle_limit_percent = 100
-
-# 
