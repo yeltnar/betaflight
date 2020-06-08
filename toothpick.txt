@@ -765,7 +765,7 @@ set sdcard_detect_inverted = OFF
 set sdcard_mode = OFF
 set sdcard_dma = OFF
 set sdcard_spi_bus = 0
-set osd_units = METRIC
+set osd_units = IMPERIAL
 set osd_warn_arming_disable = ON
 set osd_warn_batt_not_full = ON
 set osd_warn_batt_warning = ON
@@ -830,12 +830,12 @@ set osd_pid_yaw_pos = 234
 set osd_debug_pos = 234
 set osd_power_pos = 234
 set osd_pidrate_profile_pos = 234
-set osd_warnings_pos = 329
+set osd_warnings_pos = 14537
 set osd_avg_cell_voltage_pos = 14679
 set osd_pit_ang_pos = 234
 set osd_rol_ang_pos = 234
 set osd_battery_usage_pos = 234
-set osd_disarmed_pos = 234
+set osd_disarmed_pos = 14602
 set osd_nheading_pos = 234
 set osd_nvario_pos = 234
 set osd_esc_tmp_pos = 234
@@ -843,8 +843,8 @@ set osd_esc_rpm_pos = 234
 set osd_esc_rpm_freq_pos = 234
 set osd_rtc_date_time_pos = 234
 set osd_adjustment_range_pos = 234
-set osd_flip_arrow_pos = 234
-set osd_core_temp_pos = 234
+set osd_flip_arrow_pos = 14478
+set osd_core_temp_pos = 14412
 set osd_log_status_pos = 234
 set osd_stick_overlay_left_pos = 234
 set osd_stick_overlay_right_pos = 234
@@ -1095,5 +1095,3 @@ set yaw_rate_limit = 1998
 
 # end the command batch
 batch end
-
-# 
