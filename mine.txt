@@ -1,3 +1,7 @@
+# 
+
+# dump
+
 # version
 # Betaflight / STM32F405 (S405) 4.1.1 Nov 15 2019 / 12:54:53 (1e5e3d369) MSP API: 1.42
 # manufacturer_id: DIAT   board_name: FURYF4OSD   custom defaults: YES
@@ -467,15 +471,15 @@ vtx 9 0 0 0 0 900 900
 # vtxtable
 vtxtable bands 6
 vtxtable channels 8
-vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665    0 5885 5905    0    0
-vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665    0 5885 5905    0    0
+vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
 vtxtable band 6 IMD6     I CUSTOM  5732 5765 5828 5840 5866 5740    0    0
-vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 4
-vtxtable powerlabels 25 200 500 800
+vtxtable powerlevels 5
+vtxtable powervalues 0 1 2 3 4
+vtxtable powerlabels 25 100 200 500 800
 
 # rxfail
 rxfail 0 a
@@ -501,7 +505,7 @@ rxfail 17 h
 set gyro_hardware_lpf = NORMAL
 set gyro_sync_denom = 1
 set gyro_lowpass_type = PT1
-set gyro_lowpass_hz = 200
+set gyro_lowpass_hz = 0
 set gyro_lowpass2_type = PT1
 set gyro_lowpass2_hz = 0
 set gyro_notch1_hz = 0
@@ -519,7 +523,7 @@ set dyn_notch_range = MEDIUM
 set dyn_notch_width_percent = 8
 set dyn_notch_q = 120
 set dyn_notch_min_hz = 150
-set dyn_lpf_gyro_min_hz = 200
+set dyn_lpf_gyro_min_hz = 0
 set dyn_lpf_gyro_max_hz = 500
 set gyro_filter_debug_axis = ROLL
 set acc_hardware = AUTO
@@ -877,7 +881,7 @@ set pwr_on_arm_grace = 5
 set scheduler_optimize_rate = AUTO
 set vtx_band = 5
 set vtx_channel = 8
-set vtx_power = 2
+set vtx_power = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5917
 set vtx_pit_mode_freq = 0
@@ -969,9 +973,9 @@ profile 0
 
 # profile 0
 set profile_name = -
-set dyn_lpf_dterm_min_hz = 70
-set dyn_lpf_dterm_max_hz = 170
-set dterm_lowpass_type = PT1
+set dyn_lpf_dterm_min_hz = 100
+set dyn_lpf_dterm_max_hz = 250
+set dterm_lowpass_type = BIQUAD
 set dterm_lowpass_hz = 150
 set dterm_lowpass2_type = PT1
 set dterm_lowpass2_hz = 0
@@ -981,7 +985,7 @@ set vbat_pid_gain = OFF
 set pid_at_min_throttle = ON
 set anti_gravity_mode = SMOOTH
 set anti_gravity_threshold = 250
-set anti_gravity_gain = 5000
+set anti_gravity_gain = 1000
 set feedforward_transition = 0
 set acc_limit_yaw = 0
 set acc_limit = 0
@@ -1009,14 +1013,14 @@ set acro_trainer_angle_limit = 20
 set acro_trainer_lookahead_ms = 50
 set acro_trainer_debug_axis = ROLL
 set acro_trainer_gain = 75
-set p_pitch = 46
-set i_pitch = 90
-set d_pitch = 38
-set f_pitch = 95
-set p_roll = 42
-set i_roll = 85
+set p_pitch = 35
+set i_pitch = 50
+set d_pitch = 35
+set f_pitch = 40
+set p_roll = 35
+set i_roll = 50
 set d_roll = 35
-set f_roll = 90
+set f_roll = 40
 set p_yaw = 30
 set i_yaw = 90
 set d_yaw = 0
@@ -1033,8 +1037,8 @@ set abs_control_error_limit = 20
 set abs_control_cutoff = 11
 set use_integrated_yaw = OFF
 set integrated_yaw_relax = 200
-set d_min_roll = 20
-set d_min_pitch = 22
+set d_min_roll = 0
+set d_min_pitch = 0
 set d_min_yaw = 0
 set d_min_boost_gain = 27
 set d_min_advance = 20
@@ -1071,8 +1075,8 @@ set yaw_expo = 0
 set roll_srate = 70
 set pitch_srate = 70
 set yaw_srate = 70
-set tpa_rate = 65
-set tpa_breakpoint = 1250
+set tpa_rate = 0
+set tpa_breakpoint = 2000
 set tpa_mode = D
 set throttle_limit_type = OFF
 set throttle_limit_percent = 100
@@ -1083,3 +1087,4 @@ set yaw_rate_limit = 1998
 # end the command batch
 batch end
 
+# 
