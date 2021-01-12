@@ -1,6 +1,4 @@
-# 
-
-# dump
+dump
 
 # version
 # Betaflight / STM32F405 (S405) 4.2.6 Jan  5 2021 / 19:07:23 (a4b6db1e7) MSP API: 1.43
@@ -580,7 +578,7 @@ set srxl2_unit_id = 1
 set srxl2_baud_fast = ON
 set sbus_baud_fast = OFF
 set crsf_use_rx_snr = OFF
-set airmode_start_throttle_percent = 25
+set airmode_start_throttle_percent = 10
 set rx_min_usec = 885
 set rx_max_usec = 2115
 set serialrx_halfduplex = OFF
@@ -903,7 +901,7 @@ set scheduler_optimize_rate = AUTO
 set enable_stick_arming = OFF
 set vtx_band = 5
 set vtx_channel = 8
-set vtx_power = 1
+set vtx_power = 3
 set vtx_low_power_disarm = OFF
 set vtx_freq = 5917
 set vtx_pit_mode_freq = 0
